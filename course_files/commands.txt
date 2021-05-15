@@ -1,0 +1,41 @@
+git init -> inicializar repositório
+git add teste.txt -> adicionar arquivo
+git commit -m "hello world git" -> commitar alterações
+
+git branch -M master -> criar branch master
+git remote add origin https://github.com/dvsilva/git-github-udemy.git -> adicionar origem remota
+git push -u origin master -> enviar para origem remota
+
+remover origem atual
+git remote -v -> visualizar origens
+git remote rm origin -> remover origem remota
+
+git status -> visualizar mudanças no repo
+
+git add index.html -> adicionar arquivo especifico
+git add . -> adicionar tudo da pasta
+
+git commit a.txt -m "enviando o arquivo a" -> enviar arquivo a.txt
+git commit -a -m "enviando a funcionalidade x" -> adiciona e envia todos os arquivos
+
+git push -> enviar commits ao repositorio remoto
+
+git pull -> puxar alterações de um repositório git remoto
+
+git clone https://github.com/dvsilva/git-github-udemy -> clonar repositórios remotos
+
+git rm c.txt -> deletar arquivo c.txt do projeto e do git
+
+git log -> histórico de alterações
+
+git mv -> remover ou mover arquivo
+git mv rodape.css css/rodape.css
+git mv css/bannerinicia.css css/banner_inicial.css
+
+git checkout -> desfazendo alterações / resetar arquivos
+git checkout css/styles.css
+
+.gitignore -> ignorando arquivos do projeto (criar arquivo)
+
+git reset -> resetando uma branch (alterações commitadas e pendentes serão excluidas)
+git reset --hard origin/master -> trazer estado de uma branch
