@@ -1,3 +1,7 @@
+================================================================
+
+SECTION 2
+
 git init -> inicializar repositório
 git add teste.txt -> adicionar arquivo
 git commit -m "hello world git" -> commitar alterações
@@ -39,3 +43,29 @@ git checkout css/styles.css
 
 git reset -> resetando uma branch (alterações commitadas e pendentes serão excluidas)
 git reset --hard origin/master -> trazer estado de uma branch
+
+================================================================
+
+SECTION 3
+
+git branch -> listar branch
+git branch primeiro_branch -> criar um branch
+git branch [-d  ou -- delete] primeiro_branch -> deletar um branch
+git checkout primeiro_branch -> mudar de branch
+git checkout -b primeiro_branch -> criar e mudar de branch
+git merge teste_criacao -> unir branches
+
+git stash -> salvar alterações e não perder código (lixeira) e pode recuperar
+git stash list -> listar todas as stash
+git stash apply <numero - ex: 0> -> recuperar stash
+git stash show -p 0 -> mostrar alterações de uma stash
+git stash clear -> limpar totalmente as stashs de um branch
+git stash drop <nome> -> deletar uma stash
+
+git tag -a v1.0 -m "primeira versão" -> criar tag (serve como um checkpoint de um branch)
+git tag -> listar tags
+git show v2.0 -> verificar tags (detalhes em log)
+git checkout v3.0 -> trocar de tags
+git push origin v2.0 -> enviar e compartilhar tag para repo remoto
+git push origin --tags -> enviar todas as tags do repo remoto
+
