@@ -109,3 +109,20 @@ git describe --tags -> podemos verificar todas as tags do nosso projeto (--all r
 ================================================================
 
 SECTION 6
+
+git clone <link> <pasta> -> clona projeto para uma pasta específica
+git add -> adiciona arquivos que deseja manter antes
+git clean -f -> forçar limpar somente novos arquivos que não estão sendo trackeados (nao usou git add)
+
+git gc -> abreviação para garbage collector, identifica arquivos que não são mais necessários e os exclui
+
+git fsck -> abreviação de File System Check. verifica a integridade de arquivos e arquivos corrompidos
+
+git reflog -> mapear todos os seus passos no repositório (expiram em 30 dias)
+git reset --hard <hash> -> avançar e também retroceder nas hashs do reflog (salvar estado atual com git stash antes)
+
+git archive --format zip --output master_files.zip master -> transformar o repo um arquivo compactado
+
+================================================================
+
+SECTION 7
