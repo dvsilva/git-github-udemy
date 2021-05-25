@@ -92,4 +92,20 @@ submodules permite dois ou mais projetos em um repositório (precisa ter mais de
 git submodule add <repo> <pasta> -> adiciona um repositorio dentro de outro
 git push --recursive-submodules=on-demand -> atualiza apenas o submodule
 
+================================================================
 
+SECTION 5
+
+git show -> lista informações uteis / movimentações / commits em uma branch
+git show <tag> -> mostra diferenças entre as versões das tags
+
+git diff -> mostra diferenças dos branches
+git diff master -> mostra diferenças ds branche atual com a master
+git diff HEAD:a.txt a.txt -> mostra diferenças entre arquivos
+
+git shortlog -> log resumido do projeto
+git describe --tags -> podemos verificar todas as tags do nosso projeto (--all recebe as tags)
+
+================================================================
+
+SECTION 6
