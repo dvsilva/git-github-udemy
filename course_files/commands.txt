@@ -69,3 +69,27 @@ git checkout v3.0 -> trocar de tags
 git push origin v2.0 -> enviar e compartilhar tag para repo remoto
 git push origin --tags -> enviar todas as tags do repo remoto
 
+================================================================
+
+SECTION 4
+
+git fetch -a -> receber outros branches que estão no repositório remoto (-a puxar todos)
+git pull -> receber alterações 
+
+criar branches a partir da master
+git checkout master
+git pull
+git checkout -b novo_branch
+
+git push -> envia alterações para o repo remoto (arquivos commitados)
+
+git remote -> adicionar, trackear ou remover repo
+git remote -v -> listar origens
+git remote rm origin -> remover origem
+git remote add origin <link> -> adicionar origem
+
+submodules permite dois ou mais projetos em um repositório (precisa ter mais de um repo)
+git submodule add <repo> <pasta> -> adiciona um repositorio dentro de outro
+git push --recursive-submodules=on-demand -> atualiza apenas o submodule
+
+
