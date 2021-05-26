@@ -126,3 +126,9 @@ git archive --format zip --output master_files.zip master -> transformar o repo 
 ================================================================
 
 SECTION 7
+
+Aba Code, Issues, Pull Request, Actions, Projects, Wiki, Settings, Gists ..
+
+================================================================
+
+SECTION 8
