@@ -157,3 +157,16 @@ inserir código - ```código```
 
 lista de tarefas
 - [] ou - [x]
+
+================================================================
+
+SECTION 9
+
+Você deve seguir alguns passos simples, veja:
+1. Criar um repositório com o nome nomedousuario.github.io
+2. Clonar o repositório no nosso computador
+3. Adicionar o código do projeto na branch master
+4. Enviar o código por meio de push
+5. E pronto, você tem um site em https://nomedousuario.github.io
+
+criar html básico -> digitar ! + tab
