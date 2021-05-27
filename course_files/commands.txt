@@ -132,3 +132,28 @@ Aba Code, Issues, Pull Request, Actions, Projects, Wiki, Settings, Gists ..
 ================================================================
 
 SECTION 8
+
+markdown -> é uma forma de adicionar estilos a textos na web
+
+titulos
+# - h1
+## - h2
+### - h3
+
+ênfase nos textos
+**texto** - negrito
+__texto__ - itálico
+_um**texto**combinado_ - os dois
+
+listas
+ordenadas - 1. item
+não ordenadas - * item
+
+imagens - ![texto alt](link da imagem)
+
+links - [texto do link](link)
+
+inserir código - ```código```
+
+lista de tarefas
+- [] ou - [x]
